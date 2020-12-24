@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+/* Nav-bar styling */
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    padding: 10px 30px;
+    font-family: "Popins",sans-serif;
+    background-color: black;
+}
+.fa-bars{
+    visibility: hidden;
+}
+.nav-bar .max-width{
+    max-width:  1300px;
+    padding: 0 80px;
+    margin: auto;
+    position: relative;
+}
+.nav-bar .logo img{
+    height: 40px;
+    
+}
+.nav-bar .menu{
+    position: absolute;
+    right: 13%;
+    top: 30%;
+}
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-bar .menu li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-bar .menu li a{
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 500;
+   
+   
+}
+
+.nav-bar .menu li a:hover{
+    background-color: #A1FE6B;
+    color: black;
+    background-size: contain;
+    padding-top: 0px;
+    
+}
+.nav-bar .menu li a:active{
+    background-color: #A1FE6B;
+    color: black;
+}
+/* Body styling */
+.container{
+    background-color: #171717;
+    display: flex;
+    height: 100vh;
+    background-image: url("./Images/green.png"),url("./Images/black.png");
+    background-position: -80px -50px , 650px -80px;
+    background-repeat: no-repeat;
+    background-size: 60% 140%,60% 150%;
+    margin: 0px auto 0px auto ;    
+}
+.line{
+    width: 60px;
+    background-color: grey;
+    height: 3px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.mid{
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    top: 25%;
+    
+}
+h4{
+    
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.left{
+   display: flex;
+  
+   
+}
+.left-1 h1{
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto 10px 65px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 3px;
+
+}
+
+form{
+    position: absolute;
+    left:53rem;
+    top: 4rem;
+}
+input{
+    background-color: #171717;
+    height: 43px;
+    margin-bottom: 18px;
+    width: 20em;
+    border-color: #A1FE6B;
+    color: grey;
+    padding-left: 15px;
+}
+.submit{
+    margin-top: 20px ;
+    background-color: #A1FE6B;
+    color: black;
+
+}
+.submit:hover{
+    box-shadow: white 4px;
+}
+i{
+    position: absolute;
+    left: 16rem;
+    top: 4rem;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.fa-eye-slash{
+    color: #A1FE6B;
+    
+    
+}
+ .fa-eye{
+    color: #A1FE6B;
+    
+}
+.query{
+    position: absolute;
+    left: 53em;
+    color: grey;
+    top: 20rem;
+    
+    
+}
+.query>p{
+    display: inline;
+    
+    
+}
+
+@media only screen and (max-width:700px){
+    .nav-bar{
+        padding: 10px 0px;
+    }
+    .nav-bar .logo img{
+        height: 40px;
+        
+    }
+    .nav-bar .max-width{
+        padding: 0px 20px;
+    }
+     .fa-bars{
+       color: white;
+        position: absolute;
+        top: 30%;
+        right: 10%;
+    }
+    .container{
+        background-position: top left , bottom right;
+        background-repeat: no-repeat;
+        background-size: 100% 70%,100% 50%;
+        margin: 0px auto 0px auto ;
+        
+    }
+    .line{
+        width: 60px;
+        background-color: grey;
+        height: 3px;
+        margin-top: 10px;
+        margin-right: 5px;
+    }
+    .mid{
+        font-family: "Montserrat", sans-serif;
+        position: absolute;
+        top: 15%;
+        }
+}
+
+
+/*  */
+
+.form-password{
+    position: relative;
+}
+.form-eye-toggle{
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.form-eye-toggle .fas{
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+.form-eye-toggle .fa-eye-slash{
+    display: block;
+}
+.form-eye-toggle.active .fa-eye{
+    display: block;
+}
+.form-eye-toggle.active .fa-eye-slash{
+    display: none;
+}
+.form-eye-toggle .fa-eye{
+    display: none;
+}
+form>p{
+    color: grey;
+}
+.fab{
+    position: absolute;
+    left: 42.5em;
+    top: 18rem;
+    font-size: 20px;
+    
+    
+    
+    
+}
+.fa-facebook {
+    padding-left: 30px;
+    color: #A1FE6B;
+    /* border-radius: #A1FE6B 2px solid; */
+    width: 24px;
+}
+.fa-google{
+    padding-left: 60px;
+    color: #A1FE6B;
+    width: 24px;
+    /* border-radius: #A1FE6B 2px solid; */
+}
+.fa-linkedin-in{
+    color: #A1FE6B;
+    width: 24px;
+    /* border-radius: #A1FE6B 2px solid; */
+}
