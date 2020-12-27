@@ -271,6 +271,7 @@ form>p{
         width: 100vw;
         background-color: #1d1d1d;
         opacity: 90%;
+        display:none;
         
         
     }
@@ -278,7 +279,9 @@ form>p{
         display: none;
         
     }
-    
+     .menu.change{
+        display:block;
+     }
 
     .nav-bar a{
         color:#A1FE6B;
