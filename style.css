@@ -272,13 +272,16 @@ form>p{
         width: 100vw;
         background-color: #1d1d1d;
         opacity: 90%;
-        
+        display:none:
         
     }
     .change{
         display: none;
         
     }
+     .menu.change{
+     display:block;
+     }
     
 
     .nav-bar a{
