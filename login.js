@@ -5,3 +5,9 @@ togglePassword.addEventListener('click', ()=> {
     pW.setAttribute('type', type);
     togglePassword.classList.toggle('active');
 });
+
+const icon=document.querySelector('.fa-bars');
+const menu=document.querySelector('.menu');
+icon.addEventListener('click',()=>{
+    menu.classList.toggle('change')
+});
